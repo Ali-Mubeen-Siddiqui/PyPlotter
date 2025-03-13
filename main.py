@@ -1,3 +1,11 @@
-print("hello world")
+from App import Application
 
-# hello
+
+def main():
+    root = Application()
+    root.mainloop()
+
+
+if __name__ == '__main__':
+    main()
+
