@@ -136,4 +136,4 @@ class Application(tk.Tk):
 
             messagebox.showinfo('Success', 'Plot generated successfully!')
         except Exception as e:
-            messagebox.showerror('Error', f'Error processing data: {str(e)}')
+            messagebox.showerror('Error', f'Error processing data check you have filled all fields:')
